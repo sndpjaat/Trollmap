@@ -76,7 +76,9 @@
   background: transparent;
   border-radius: 50%;
 }
-
+.max-w-585{
+  max-width: 585px;
+}
 .header-btm {
   bottom: 0;
   left: 0;
