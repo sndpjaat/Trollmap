@@ -600,6 +600,7 @@ max-width: 148px;
   box-sizing: border-box;
 }
 
+/*------------------------------------------------- preloader ---------------------------------*/
 
 
 /* -------------------------------------------------- MAX-WIDTH :992--------------------------------------------------- */
@@ -714,7 +715,7 @@ max-width: 148px;
     justify-content: center;
     /* background-image: url("../images/png/Hero-Bg.png");
      */
-    background-color: #0F2440;
+    background-color:var(--text-p-white);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
