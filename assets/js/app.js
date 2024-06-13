@@ -20,8 +20,6 @@ menu.addEventListener("click", () => {
   }
 });
 
-// scroll to top
-
 let scroll_btn = document.querySelector(".scroll_top");
 let scroll_pt = 200;
 
