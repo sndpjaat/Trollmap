@@ -378,9 +378,10 @@
   padding-left: 68px;
 }
 .time_some{
-  top: 18%;
+  top: 11%;
   left: 2%;
 }
+
 .pt-65{
   padding-top: 65px;
 }
@@ -434,8 +435,8 @@ max-width: 148px;
   padding-top: 63px;
 }
 
-.height_419 {
-  height: 419px;
+.height_468 {
+  height: 468px;
 }
 
 .max-w-233 {
@@ -875,7 +876,9 @@ max-width: 148px;
     background-image: url("./assets/timeline-arrow.png");
     background-size: 100% 100%;
   }
-
+.opacity-xl-1{
+  opacity: 100% !important;
+}
   .reverse-img::after {
     content: "";
     position: absolute;
@@ -1019,7 +1022,7 @@ max-width: 148px;
 }
 
 @media (min-width:1140px) {
-  .h_212 {
+  . {
     height: 212px;
   }
  
