@@ -470,7 +470,7 @@
 }
 
 .pb-143 {
-  padding-bottom: 143px;
+  padding-bottom: 40px;
 }
 
 .sction_for_trmp {
@@ -560,7 +560,7 @@
 }
 
 .pb-70 {
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .padding_30 {
@@ -797,8 +797,9 @@
   content: '';
   position: absolute;
   left: 50%;
+  top: 10%;
   width: 6px;
-  height: 100%;
+  height: 80%;
   background: #FFFFFF;
 }
 
@@ -919,6 +920,8 @@ display: none;
     left:80px;
     height: 100%;
     width: 5px;
+    height: 80%;
+    top: 5%;
   }
 .timeline ul li:nth-child(even):before {
   background-image: url(../image/SVG/arrowRight.svg);
@@ -1386,8 +1389,18 @@ display: none;
   }
 
   .pb-83 {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
   }
+  .pb-225 {
+    padding-bottom: 180px;
+  }
+  .pb-143 {
+    padding-bottom: 143px;
+  }
+  .pb-70 {
+    padding-bottom: 20px;
+  }
+  
 
   /* -----------------------------------------important code{} */
   .roadmap_BG {
@@ -1424,7 +1437,7 @@ display: none;
 }
 
 .pb-225 {
-  padding-bottom: 225px;
+  padding-bottom: 180px;
 }
 
 .mt_2 {
@@ -1432,5 +1445,5 @@ display: none;
 }
 
 .pb-83 {
-  padding-bottom: 83px;
+  padding-bottom: 30px;
 }
