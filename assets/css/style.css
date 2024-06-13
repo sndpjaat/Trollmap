@@ -17,13 +17,13 @@
 /*----------------------------------------------------------- Header -------------------------------------------------------------------*/
 .header_bg {
   background-image: url(../image/header_bg.png);
-  background-size: cover;
+  background-size: 150% 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
 .token_Bg{
   background-image: url(../image/tokenbg.png);
-  background-size: 100% 100%;
+  background-size: 150% 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -31,13 +31,13 @@
 /* -----------------------------------------important code{} */
 .roadmap_BG{
   background-image: url(../image/roadmapBG.png);
-  background-size: 100% 100%;
+  background-size: 150% 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
 .conclusion_bg {
   background-image: url(../image/conclusion_pic.webp);
-  background-size: 100% 100%;
+  background-size: 150% 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -557,10 +557,18 @@ max-width: 148px;
 .max-w-264 {
   max-width: 264px;
 }
-/* .elpse_frst{
-  top: 5%;
+.elpse_frst{
+  top: -13%;
   left: 0;
-} */
+}
+.mini_buble_elpsescnd{
+  top: -14%;
+  left: 12%;
+}
+.right_buble_elpsethrd{
+  right: 6%;
+  top: 58%;
+}
 .pt-40{
   padding-top: 40px;
 }
@@ -1022,12 +1030,24 @@ max-width: 148px;
 }
 
 @media (min-width:1140px) {
-  . {
-    height: 212px;
-  }
  
   }
-
+@media (min-width:575.9px) {
+  .header_bg{
+    background-size: 100% 100%;
+  }
+  .token_Bg{
+    background-size: 100% 100%;
+  }
+  
+  /* -----------------------------------------important code{} */
+  .roadmap_BG{
+    background-size: 100% 100%;
+  }
+  .conclusion_bg {
+    background-size: 100% 100%;
+  }
+}
   @media (max-width:576px)
    {
     .pt-133{
