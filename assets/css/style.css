@@ -7,7 +7,7 @@
   padding: 0;
   list-style-type: none;
   text-decoration: none !important;
-  list-style-type: none;
+box-sizing: border-box;
 }
 
 
@@ -148,8 +148,12 @@
 .pt-20 {
   padding-top: 20px;
 }
-
-
+.pt_43{
+  padding-top: 43px;
+}
+.pb_43{
+  padding-bottom: 43px;
+}
 
 
 
@@ -603,12 +607,85 @@ max-width: 148px;
   padding: 10px 17px 15px 15px;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+
+
+/*============ timeline1 =============*/
+.sessions {
+  position: relative;
 }
 
+.time_content1 {
+  border-left: 8px solid #DF4741;
+  position: relative;
+  padding-left: 42px;
+  margin-left: 12px;
+}
+.time_content2 {
+  border-left: 8px solid #DF4741;
+  position: relative;
+  padding-left: 42px;
+  margin-left: 12px;
+}
+.time_content3 {
+  border-left: 8px solid #DF4741;
+  position: relative;
+  padding-left: 42px;
+  margin-left: 12px;
+}
+.time_content4 {
+  border-left: 8px solid transparent;
+  position: relative;
+  padding-left: 42px;
+  margin-left: 12px;
+}
+.time_content1::before {
+  content: "";
+width: 32px;
+height: 32px;
+background-image: url(../image/SVG/timeBefore.svg);
+background-size: cover;
+background-position:  center;
+background-repeat: no-repeat;
+  position: absolute !important;
+  left: -20px;
+  top: -1px;
+}
+.time_content2::before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(../image/SVG/timeBefore.svg);
+  background-size: cover;
+  background-position:  center;
+  background-repeat: no-repeat;
+  position: absolute !important;
+  left: -20px;
+  top: 43px;
+}
+.time_content3::before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(../image/SVG/timeBefore.svg);
+  background-size: cover;
+  background-position:  center;
+  background-repeat: no-repeat;
+  position: absolute !important;
+  left: -20px;
+  top: 25px;
+}
+.time_content4::before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(../image/SVG/timeBefore.svg);
+  background-size: cover;
+  background-position:  center;
+  background-repeat: no-repeat;
+  position: absolute !important;
+  left: -20px;
+  top: 0px;
+}
 /*------------------------------------------------- preloader ---------------------------------*/
 
 
