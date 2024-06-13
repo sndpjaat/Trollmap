@@ -19,6 +19,7 @@ menu.addEventListener("click", () => {
     contain.style.position = "unset";
   }
 });
+
 // scroll to top
 
 let scroll_btn = document.querySelector(".scroll_top");
