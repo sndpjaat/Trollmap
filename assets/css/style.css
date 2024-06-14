@@ -797,7 +797,7 @@
   content: '';
   position: absolute;
   left: 50%;
-  top: 10%;
+  top: 5%;
   width: 6px;
   height: 80%;
   background: #FFFFFF;
@@ -856,8 +856,36 @@
   background-repeat: no-repeat;
 }
 
-
-
+.pt-121{
+  padding-top: 50px;
+}
+.pb-139{
+  padding-bottom: 60px;
+}
+.max-w-288{
+  max-width: 288px;
+}
+.max-w-268{
+  max-width: 268px;
+}
+.max-w-244{
+  max-width: 244px;
+}
+.max-w-246{
+  max-width: 246px;
+}
+.max-w-216{
+  max-width: 216px;
+}
+.max-w-170{
+  max-width: 170px;
+}
+.max-w-186{
+  max-width: 186px;
+}
+.max-w-212{
+  max-width: 212px;
+}
 .timeline ul li:nth-child(odd) .time2 {
   position: absolute;
   top: 50%;
@@ -920,7 +948,7 @@ display: none;
     left:80px;
     height: 100%;
     width: 5px;
-    height: 80%;
+    height: 75%;
     top: 5%;
   }
 .timeline ul li:nth-child(even):before {
@@ -1400,7 +1428,12 @@ display: none;
   .pb-70 {
     padding-bottom: 20px;
   }
-  
+  .pt-121{
+    padding-top: 121px;
+  }
+  .pb-139{
+    padding-bottom: 139px;
+  }
 
   /* -----------------------------------------important code{} */
   .roadmap_BG {
