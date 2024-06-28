@@ -13,8 +13,8 @@ menu.addEventListener("click", () => {
     contain.style.top = "0";
     contain.style.left = "0";
     contain.style.width = "100%";
-    index.classList.add("z-3");
-    container.classList.add("position-u");
+    // index.classList.add("z-3");
+    // container.classList.add("position-u");
   } else {
     contain.style.position = "unset";
   }
@@ -38,8 +38,35 @@ window.addEventListener("scroll", () => {
     });
 });
 
-AOS.init(
-    {
-        once: true,
-    }
-);
+// AOS.init(
+//     {
+//         once: true,
+//     }
+// );
+// let links = document.querySelectorAll(".nav_link");
+// let body =document.body;
+
+
+// links.forEach((link) => {
+//     link.addEventListener("click", () => {
+//         if (item.classList.contains("show")) {
+//             item.classList.remove("show");
+//             body.style.overflow="auto";
+            
+//         } else {
+//             item.classList.add("show");
+//             body.style.overflow="hidden";
+//         }
+//     });
+// });
+
+const nav = document.querySelectorAll(".nav_link");
+
+nav.forEach((e) =>{
+    e.addEventListener("click", function(){
+        let contain = document.querySelector("body");
+        contain.style.position = "unset";
+        item.classList.toggle("show");
+        document.getElementById("checkbox").checked = false;
+    })
+})

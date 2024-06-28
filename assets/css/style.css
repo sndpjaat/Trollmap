@@ -1060,6 +1060,10 @@
     width: 70%;
   }
 
+  .rotate{
+    transform: rotate(0);
+  }
+
   #checkbox:checked+.toggle .bars {
     position: absolute;
     -webkit-transition-duration: 0.5s;
