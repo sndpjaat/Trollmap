@@ -8,6 +8,7 @@
   list-style-type: none;
   text-decoration: none !important;
   box-sizing: border-box;
+  outline: 1px solid red;
 }
 
 
